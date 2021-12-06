@@ -128,7 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
+*.DS_Store
+data/*
 data/*.csv
 models/*.sav
 mlruns
@@ -136,3 +137,4 @@ models/*
 
 #config file has sensitive data
 .mlflow_uri
+modeling/*.py
