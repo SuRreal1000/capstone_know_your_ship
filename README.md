@@ -6,13 +6,13 @@ In order to contribute to this goal, the team analysed a container ship dataset 
 
 To accomplish this task, the data was provided via SQL databases and additional data was included. The enriched data was analysed and used to train a regression model with the acquired machine learning techniques from the bootcamp to predict the fuel consumption. Undergoing all stages of the data science life cycle, the project was finally presented to the stakeholder group.
 
-Techstack:
+### Techstack:
 
 SQL, Python, Numpy, Pandas, Machine-learning, MLFlow, Statsmodel, Sklearn, Seaborn, Plotly, Dashboard, API, Git
 
 
 
-Table of Content:
+### Table of Content:
 * [Preprocessing](notebooks/01_Preprocessing_HFData.ipynb):
     Data was obtained in s3db format and had to be preprocessed in able to use it with pandas.
 * [Engine model](notebooks/02_1_Engine_model.ipynb):
