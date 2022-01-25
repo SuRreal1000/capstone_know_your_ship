@@ -1,7 +1,7 @@
 # Know Your Ship
 
 Table of Content:
-* [jupyter notebook](notebooks/01_Preprocessing_HFData.ipynb)
+* [Preprocessing ](notebooks/01_Preprocessing_HFData.ipynb):
     Data was obtained in s3db format and had to be preprocessed in able to use it with pandas.
 * [jupyter notebook](notebooks/02_1_Engine_model.ipynb)
     
