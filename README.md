@@ -22,23 +22,17 @@ Table of Content:
 * [EDA tools](notebooks/03_EDA_Tools.ipynb):
     Tools used for the EDA.
 * Models: Different models were used and evaluated with MLFlow:
-    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
-    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
-    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
-    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
+    * [Random Forest](notebooks/04_1_Model_Random_Forrest.ipynb)
+    * [Stacking](notebooks/04_2_Model_Stacking.ipynb)
+    * [Regression Tree](notebooks/04_3_Model_Regression_Tree.ipynb)
+    * [KNN](notebooks/04_4_Model_KNN.ipynb)
+    * [Linear Regression with Polynomial Features](notebooks/04_5_Model_Linear_Regression_Polynomial.ipynb)
+    * [OLS](notebooks/04_6_Model_OLS.ipynb)
+    * [Gradient Descent](notebooks/04_7_Model_Gradient_descent.ipynb)
+    * [SVM](notebooks/04_8_Model_SVM.ipynb)
+* [Clustering](notebooks/05_Clustering.ipynb):
+    Passages were clustered to gain more insights into differences.
     
-
-
-Here you find a Skeleton project for building a simple model in a python script or notebook and log the results on MLFlow.
-
-There are two ways to do it: 
-* In Jupyter Notebooks:
-    We train a simple model in the [jupyter notebook](notebooks/EDA-and-modeling.ipynb), where we select only some features and do minimal cleaning. The hyperparameters of feature engineering and modeling will be logged with MLflow
-
-* With Python scripts:
-    The [main script](modeling/train.py) will go through exactly the same process as the jupyter notebook and also log the hyperparameters with MLflow
-
-Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
 
 ## Requirements:
 
