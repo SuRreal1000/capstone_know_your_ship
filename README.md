@@ -1,9 +1,31 @@
 # Know Your Ship
+From data to containership performance. Unleash the potential of machine learning.
+
+The next big challenge our society is facing today is to reduce CO2 emissions. Therefore, the shipping industry strives to reach the net-zero target by 2050. 
+In order to contribute to this goal, the team analysed a container ship dataset from Hapag-Lloyd and built a model to predict the fuel consumption of the main engine. The model highlights interconnections between variables and can be used for operational optimisation and forecasting. 
+
+To accomplish this task, the data was provided via SQL databases and additional data was included. The enriched data was analysed and used to train a regression model with the acquired machine learning techniques from the bootcamp to predict the fuel consumption. Undergoing all stages of the data science life cycle, the project was finally presented to the stakeholder group.
+
+Techstack:
+
+SQL, Python, Numpy, Pandas, Machine-learning, MLFlow, Statsmodel, Sklearn, Seaborn, Plotly, Dashboard, API, Git
+
+
 
 Table of Content:
-* [Preprocessing ](notebooks/01_Preprocessing_HFData.ipynb):
+* [Preprocessing](notebooks/01_Preprocessing_HFData.ipynb):
     Data was obtained in s3db format and had to be preprocessed in able to use it with pandas.
-* [jupyter notebook](notebooks/02_1_Engine_model.ipynb)
+* [Engine model](notebooks/02_1_Engine_model.ipynb):
+    Creation of the power prediction model based on CFD calculations.
+* [Featureengineering](notebooks/02_2_Featureengineering.ipynb):
+    Additional Features were created. Combination with daily noon report and engine model.
+* [EDA tools](notebooks/03_EDA_Tools.ipynb):
+    Tools used for the EDA.
+* Models: Different models were used and evaluated with MLFlow:
+    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
+    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
+    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
+    * [Random Forest](notebooks/04_1_Random_Forrest.ipynb)
     
 
 
