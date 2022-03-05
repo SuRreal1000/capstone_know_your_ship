@@ -2,7 +2,7 @@
 From data to containership performance. Unleash the potential of machine learning.
 
 The next big challenge our society is facing today is to reduce CO2 emissions. Therefore, the shipping industry strives to reach the net-zero target by 2050. 
-In order to contribute to this goal, the team analysed a container ship dataset from Hapag-Lloyd and built a model to predict the fuel consumption of the main engine. The model highlights interconnections between variables and can be used for operational optimisation and forecasting. 
+In order to contribute to this goal, the team analysed a container ship dataset for the [data science bootcamp](https://www.neuefische.de/weiterbildung/data-science) and built a model to predict the fuel consumption of the main engine. The model highlights interconnections between variables and can be used for operational optimisation and forecasting. 
 
 To accomplish this task, the data was provided via SQL databases and additional data was included. The enriched data was analysed and used to train a regression model with the acquired machine learning techniques from the bootcamp to predict the fuel consumption. Undergoing all stages of the data science life cycle, the project was finally presented to the stakeholder group.
 
